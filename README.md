@@ -5,6 +5,6 @@ A little snow simulation with Python3 and PyGame. When executed, the app goes to
 You could use this as a screen saver (if you know how to convert it, Windows: Rename .exe to .scr) or as a live video background. I also made an infinite FullHD video loop with start and stop sequences to use in your favourite video editor. I also retouched it a little bit to give it a smoother look.
 
 ## It's your time!
-Feel free to fork it, extend and publish it. You could probably change the shape of the snow.
+Feel free to fork, extend and publish it. You could probably change the shape of the snow.
 
-I'm also looking for people building executables for other OSes.
+I'm also looking for people building executables for other OSes, so unexperienced users are able to play it without installing and handling Python. The executables are packaged with _PyInstaller_.
