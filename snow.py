@@ -27,7 +27,7 @@ class Snowflake():
         self.__acc = array( [0.0, 0.5] )*self.__mass
     
     def update(self):
-        if self.__vel[1] < 1.25*self.__mass:
+        if self.__vel[1] < 0.9*self.__mass:
             self.__vel += self.__acc
         self.__pos += self.__vel
     
