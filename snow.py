@@ -60,9 +60,6 @@ black = (0,0,0)
 white = (255,255,255)
 
 # init
-icon = pygame.image.load('icon.png')
-pygame.display.set_icon(icon) # set icon before screen is initialized
-
 screen = pygame.display.set_mode(screen_size, pygame.FULLSCREEN)
 pygame.display.set_caption(title)
 pygame.mouse.set_visible(mouse)
